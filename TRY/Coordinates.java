@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class Coordinates {
     public static void main(String[] args){
-        int gridsize;
+        int gridsize = 0;
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter X-coordinates: ");
         int x = scanner.nextInt();
@@ -44,9 +44,6 @@ public class Coordinates {
 			    {
 				System.out.println("("+x+","+y+") lies in the y-axis");
 			    }
-			    else if(y == 0 && x > 0 || x < 0)
-			    {
-		System.out.println("("+x+","+y+") lies in the x-axis");
 	}
 
 
